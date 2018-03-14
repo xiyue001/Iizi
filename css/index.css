@@ -1,0 +1,160 @@
+.colorred { color: red; }
+
+#highester { background: #f0f0f0; }
+
+#highest { width: 1180px; height: 26px; margin: 0 auto; }
+#highest ul { padding-left: 842px; }
+#highest ul li { float: left; font-size: 11px; line-height: 26px; padding: 0 8px; }
+#highest ul li a { color: #a8a8a8; }
+#highest ul li:nth-child(1) a { padding-right: 8px; border-right: 1px solid #d4d4d4; }
+#highest ul li:nth-child(3) span { font-size: 11px; margin-left: 2px; }
+#highest ul li:nth-child(5) span { font-size: 11px; color: #999999; }
+
+#top { width: 1180px; height: 98px; margin: 0 auto; }
+#top > img { margin-top: 17px; float: left; }
+#top .center { margin-top: 20px; margin-left: 199px; float: left; }
+#top .center input { float: left; width: 381px; height: 36px; border: 2px solid #ff666b; }
+#top .center img { height: 40px; }
+#top .center ul { margin-top: 13px; }
+#top .center ul li { float: left; margin: 0 7px; }
+#top .right { float: right; width: 123px; height: 33px; border: 1px solid #ddd; margin-top: 23px; }
+#top .right p { display: inline-block; color: #666; margin-left: 8px; }
+#top .right span { margin-left: 15px; margin-top: 10px; font-size: 20px; color: #666; display: inline-block; }
+#top .right .rightsharp { margin-left: 5px; }
+
+#naver { width: 100%; height: 42px; background: #34495e; }
+#naver #nav { width: 1180px; margin: 0 auto; height: 42px; }
+#naver #nav > li { float: left; line-height: 42px; padding: 0 42px; position: relative; }
+#naver #nav > li a { font-size: 12px; font-weight: 600; color: #fff; }
+#naver #nav > li:nth-child(1) { background: #ff666b; }
+#naver #nav > li:nth-child(1) div { display: none; z-index: 1000; border: 1px solid #ccc; top: 42px; left: 0; width: 1175px; height: 260px; position: absolute; }
+#naver #nav > li:nth-child(1) div .left { width: 500px; height: 260px; float: left; }
+#naver #nav > li:nth-child(1) div .left h3 { font-size: 12px; margin-top: 20px; color: #000000; }
+#naver #nav > li:nth-child(1) div .left h3:hover { font-style: initial; }
+#naver #nav > li:nth-child(1) div .left .block { width: 230px; height: 112px; padding: 8px 0 10px 20px; background: #fff; }
+#naver #nav > li:nth-child(1) div .left .block a { color: #888; }
+#naver #nav > li:nth-child(1) div .left .left_left { display: block; width: 250px; float: left; }
+#naver #nav > li:nth-child(1) div .left .left_left li:hover { background: #f1f1f1; }
+#naver #nav > li:nth-child(1) div .left .left_left li li { float: left; font-size: 12px; margin-right: 14px; margin-top: 20px; }
+#naver #nav > li:nth-child(1) div .left .left_left li li:hover a { color: #FF666B; }
+#naver #nav > li:nth-child(1) div .left .left_right { float: left; width: 250px; }
+#naver #nav > li:nth-child(1) div .left .left_right > li { height: 68.5px; }
+#naver #nav > li:nth-child(1) div .left .left_right > li:hover { background: #f1f1f1; }
+#naver #nav > li:nth-child(1) div .left .left_right > li li { float: left; font-size: 12px; margin-right: 14px; margin-top: 20px; }
+#naver #nav > li:nth-child(1) div .left .left_right > li li:hover a { color: #FF666B; }
+#naver #nav > li:nth-child(1) div .right { float: left; width: 675px; }
+#naver #nav > li:nth-child(1) div .right li { background: #fff; float: left; }
+
+#rotatoryer { width: 100%; height: 400px; position: relative; }
+#rotatoryer #rotatory { width: 100%; height: 400px; overflow: hidden; position: relative; }
+#rotatoryer #rotatory > li { height: 400px; position: absolute; top: 0; }
+#rotatoryer #rotatory img { height: 400px; }
+#rotatoryer ol { display: block; position: absolute; bottom: 10px; z-index: 100; }
+#rotatoryer ol li { margin: 0 5px; display: block; width: 13px; height: 13px; background: #949091; border-radius: 50%; float: left; }
+#rotatoryer ol .pink { background: #ff666b; }
+#rotatoryer div { z-index: 100; position: absolute; width: 34px; height: 67px; background: #7b6f69; border-radius: 2px; top: 150px; opacity: 0; }
+#rotatoryer .btn_left { left: 75px; }
+#rotatoryer .btn_right { right: 75px; }
+
+#shoper { width: 100%; background: #f5f5f5; }
+#shoper .brand_top { width: 1180px; padding-top: 39px; padding-bottom: 36px; margin: 0px auto; }
+#shoper .sixshop { width: 1180px; margin: 0 auto; }
+#shoper .sixshop > img { float: left; }
+#shoper .sixshop p { float: right; font-size: 14px; }
+#shoper .sixshop p span, #shoper .sixshop p i { display: inline-block; width: 18px; height: 25px; background: url("../img/num-8.png") no-repeat; background-position-x: -1px; margin: 2px; }
+#shoper .sixshop p span { background-position-y: -216px; }
+#shoper .sixshop p i { background-position-y: 0; }
+#shoper #shop_six { width: 1180px; margin: 0 auto; height: 412px; margin-top: 22px; overflow: hidden; position: relative; }
+#shoper #shop_six > div { width: 36px; height: 36px; border-radius: 50%; background: #7f7f7f; position: absolute; bottom: 226px; z-index: 10; }
+#shoper #shop_six .six_left_btn { left: 10px; }
+#shoper #shop_six .six_right_btn { left: 1133px; }
+#shoper #shop_six .six_shop_ul { position: absolute; width: 1000%; }
+#shoper #shop_six .six_shop_ul li { float: left; margin-right: 20px; background: #fff; height: 412px; width: 380px; position: relative; }
+#shoper #shop_six .six_shop_ul li:hover span { color: #fff; }
+#shoper #shop_six .six_shop_ul li:hover p { color: #fde35b; }
+#shoper #shop_six .six_shop_ul li:hover a { background: #fff; color: #FF666B; }
+#shoper #shop_six .six_shop_ul li:hover i { color: #fff; }
+#shoper #shop_six .six_shop_ul li img { width: 290px; padding: 0 45px; }
+#shoper #shop_six .six_shop_ul li div { transition: all .3s; display: inline-block; width: 44px; height: 21px; border: 1px solid red; border-radius: 3px; text-align: center; line-height: 21px; color: red; background: #fff; }
+#shoper #shop_six .six_shop_ul li h3 { z-index: 1; position: absolute; width: 315px; bottom: 77px; left: 30px; }
+#shoper #shop_six .six_shop_ul li span { transition: all .3s; margin-left: 5px; display: inline; font-size: 14px; line-height: 16px; }
+#shoper #shop_six .six_shop_ul li p { transition: all .3s; z-index: 1; position: absolute; font-size: 19px; color: #FF666B; left: 99px; bottom: 39px; }
+#shoper #shop_six .six_shop_ul li i { transition: all .3s; z-index: 1; bottom: 18px; left: 84px; position: absolute; color: #ccc; }
+#shoper #shop_six .six_shop_ul li a { z-index: 1; position: absolute; width: 110px; height: 36px; background: #FF666B; color: #fff; text-align: center; line-height: 36px; bottom: 20px; left: 240px; }
+#shoper #shop_six .six_shop_ul li em { display: block; width: 100%; height: 0; position: absolute; bottom: 0; background: #FF666B; display: block; }
+#shoper .six_ol { width: 1180px; margin: 0 auto; }
+#shoper .six_ol ol { margin-top: 14px; margin-left: 550px; }
+#shoper .six_ol ol li { float: left; margin: 0 4px; display: block; width: 8px; height: 8px; background: #ccc; border-radius: 50%; }
+#shoper .six_ol ol .six_ol_click { background: #666; }
+#shoper #hot { width: 1180px; margin: 0 auto; margin-top: 28px; }
+#shoper #hot h3 { display: inline-block; font-size: 27px; font-weight: 700; color: #34495e; }
+#shoper #hot p { display: inline-block; font-size: 15px; color: #9e9e9e; }
+#shoper #hot ul li { width: 580px; margin: 20px 20px 0 0; float: left; }
+#shoper #hot ul li img { width: 580px; }
+#shoper #hot ul .margin_right_none { margin-right: 0; }
+#shoper #classified { width: 1180px; margin: 0 auto; margin-top: 45px; }
+#shoper #classified h3 { display: inline-block; font-size: 27px; font-weight: 700; color: #34495e; }
+#shoper #classified p { display: inline-block; color: #9e9e9e; }
+#shoper #classified .branch { margin-top: 27px; }
+#shoper #classified .branch h2 { display: inline-block; font-size: 18px; font-weight: 700; color: #34495e; }
+#shoper #classified .branch ol { margin-top: 5px; display: inline-block; }
+#shoper #classified .branch ol li { float: left; margin: 0 7px; }
+#shoper #classified .branch > span { display: block; width: 1180px; height: 1px; background: #ccc; margin-top: 9px; }
+#shoper #classified .branch ul li { margin: 20px 20px 0 0; float: left; width: 280px; height: 390px; background: #fff; position: relative; border-bottom: 1px solid #eee; transition: all 0.3s; }
+#shoper #classified .branch ul li:hover { box-shadow: 3px 3px 5px #ccc,-3px -3px 5px #ccc; }
+#shoper #classified .branch ul li > a { display: block; width: 280px; height: 280px; border-bottom: 1px solid #f0f0f0; }
+#shoper #classified .branch ul li div { width: 100%; }
+#shoper #classified .branch ul li div p { margin-left: 12px; margin-right: 10px; margin-top: 5px; line-height: 20px; }
+#shoper #classified .branch ul li div p a { font-size: 14px; }
+#shoper #classified .branch ul li div i { color: #FF666B; position: absolute; bottom: 21px; left: 13px; font-weight: 700; }
+#shoper #classified .branch ul li div em { position: absolute; bottom: 22px; right: 20px; color: #9e9e9e; }
+#shoper #classified .branch ul .margin_right_none { margin-right: 0; }
+#shoper #brand_type { width: 1180px; margin: 0 auto; margin-top: 20px; padding-bottom: 80px; }
+#shoper #brand_type h3 { display: inline-block; font-size: 27px; color: #34495e; }
+#shoper #brand_type p { display: inline-block; }
+#shoper #brand_type div .left, #shoper #brand_type div .right { float: left; width: 190px; }
+#shoper #brand_type div ul { width: 800px; float: left; }
+#shoper #brand_type div ul li { width: 199px; height: 80px; float: left; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; position: relative; background: #fff; overflow: hidden; }
+#shoper #brand_type div ul li img { position: absolute; top: 0; transition: all .3s; }
+#shoper #brand_type div ul li:hover img { top: -5px; }
+
+#footer_sousuo { border-bottom: 2px solid #FF666B; width: 100%; height: 280px; position: relative; overflow: hidden; }
+#footer_sousuo .sousuo { z-index: 10; width: 504px; height: 85px; position: absolute; left: 411px; top: 25px; }
+#footer_sousuo .sousuo p { text-align: center; color: #fff; }
+#footer_sousuo .sousuo div { margin-top: 18px; position: relative; }
+#footer_sousuo .sousuo div input { width: 502px; height: 28px; border-radius: 50px; border: 1px solid #ccc; }
+#footer_sousuo .sousuo div span { position: absolute; right: 14px; top: 10px; }
+#footer_sousuo .sousuo ul { margin-top: 13px; }
+#footer_sousuo .sousuo ul li { float: left; margin-right: 14px; }
+#footer_sousuo .bg { z-index: 1; width: 1920px; height: 280px; position: absolute; background: url("../img/brand/index-footer-search-bg.jpg") no-repeat; top: 0; }
+
+#footer { width: 100%; height: 234px; background: url("../img/brand/footer-bg.jpg"); position: relative; }
+#footer .footer_left { float: left; position: absolute; left: 63px; top: 33px; }
+#footer .footer_left ul li { float: left; margin-right: 2px; }
+#footer .footer_left ul li a { color: #fff; font-size: 11px; }
+#footer .footer_left p { margin-top: 17px; color: #fff; font-size: 11px; }
+#footer .footer_left p a { color: #fff; font-size: 11px; }
+#footer .footer_left ol { margin-top: 17px; }
+#footer .footer_left ol li { float: left; margin-right: 10px; }
+#footer .footer_left ol li a { font-size: 11px; color: #fff; }
+#footer .footer_left .footer_flogo li { margin-right: 19px; }
+#footer .footer_right { position: absolute; right: 105px; top: 40px; }
+#footer .footer_right .left, #footer .footer_right .right { float: left; width: 128px; }
+#footer .footer_right .left div, #footer .footer_right .right div { width: 90px; height: 90px; margin: 0 auto; }
+#footer .footer_right .left span, #footer .footer_right .right span { font-size: 20px; color: #fff; display: block; margin-left: 54px; margin-top: 10px; }
+#footer .footer_right .left p, #footer .footer_right .right p { text-align: center; margin-top: 10px; }
+#footer .footer_right .right { margin-left: 87px; }
+#footer .footer_right .right span { text-align: center; margin-left: 0; }
+
+#broadside { display: block; width: 34px; background: #3e5165; position: fixed; right: 0; z-index: 100000000; }
+#broadside > span { width: 16px; display: block; margin: 0 auto; font-size: 20px; color: #ccc; margin-top: 186px; }
+#broadside i { display: block; font-size: 13px; width: 11px; margin: 0 auto; color: #fff; margin-top: 7px; }
+#broadside div { width: 24px; height: 24px; background: #FF666B; text-align: center; line-height: 24px; color: #fff; margin: 0 auto; border-radius: 50%; margin-top: 5px; }
+#broadside ul { position: absolute; bottom: 0; }
+#broadside ul li { width: 34px; height: 34px; position: relative; }
+#broadside ul li:hover { background: #FF666B; }
+#broadside ul li:hover span { display: block; }
+#broadside ul li a { font-size: 18px; display: inline-block; width: 100%; height: 100%; color: #fff; text-align: center; line-height: 34px; }
+#broadside ul li span { display: block; border-left: 5px solid #000; border-top: 5px solid transparent; border-bottom: 5px solid transparent; position: absolute; left: 0; top: 14px; display: none; }
+
+/*# sourceMappingURL=index.css.map */
