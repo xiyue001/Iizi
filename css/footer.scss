@@ -1,0 +1,79 @@
+#footer{
+    width:100%;
+    height:234px;
+    background:url("../img/brand/footer-bg.jpg");
+    position:relative;
+    .footer_left{
+        float:left;
+        position: absolute;
+        left:63px;
+        top:33px;
+        ul{
+            li{
+                float:left;
+                margin-right:2px;
+                a{
+                    color:#fff;
+                    font-size: 11px;
+                }
+            }
+        }
+        p{
+            margin-top:17px;
+            color:#fff;
+            font-size: 11px;
+            a{
+                color:#fff;
+                font-size: 11px;
+            }
+        }
+        ol{
+            margin-top:17px;
+            li{
+                float:left;
+                margin-right: 10px;
+                a{
+                    font-size: 11px;
+                    color:#fff;
+                }
+            }
+        }
+        .footer_flogo{
+            li{
+                margin-right:19px;
+            }
+        }
+    }
+    .footer_right{
+        position:absolute;
+        right:105px;
+        top:40px;
+        .left,.right{
+            float:left;
+            width:128px;
+            div{
+                width:90px;
+                height:90px;
+                margin:0 auto;
+            }
+            span{
+                font-size: 20px;
+                color:#fff;
+                display:block;
+                margin-left:54px;
+                margin-top:10px;
+            }
+            p{
+                text-align: center;
+                margin-top:10px;
+            }
+        }
+        .right{
+            margin-left:87px;
+            span{
+                text-align: center;
+                margin-left:0;
+            }
+        }
+    }
+}

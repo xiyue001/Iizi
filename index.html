@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="css/iconfont.css" />
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/footer.css" />
 		<script src = "js/jquery-1.11.1.min.js"></script>
 	</head>
 	<body>
@@ -14,19 +15,35 @@
 			<i>购物车</i>
 			<div>0</div>
 			<ul>
-				<li><span></span><a class = "iconfont" href = "Javascript:;">&#xe612;</a></li>
-				<li><span></span><a class = "iconfont" href = "Javascript:;">&#xe677;</a></li>
-				<li><span></span><a class = "iconfont" href = "Javascript:;">&#xe66a;</a></li>
-				<li><span></span><a class = "iconfont" href = "Javascript:;">&#xe663;</a></li>
-				<li><span></span><a class = "iconfont" href = "Javascript:;">&#xe626;</a></li>
+				
+				<li><a class = "iconfont" href = "Javascript:;">&#xe612;</a>
+					<div class = "broadside_div">我的优惠卷<span></span></div>
+				</li>
+				<li><a class = "iconfont" href = "Javascript:;">&#xe677;</a><div class = "broadside_div">我的丽子<span></span></div></li>
+				<li><a class = "iconfont" href = "Javascript:;">&#xe66a;</a><div class = "erwei"><p>扫一扫,下载APP</p><img src="img/lizi-2code.png" alt="" /><span></span></div></li>
+				<li><a class = "iconfont" href = "index.html">&#xe663;</a><div class = "broadside_div">回到首页<span></span></div></li>
+				<li><a class = "iconfont" href = "Javascript:;">&#xe626;</a><div class = "broadside_div">回到顶部<span></span></div></li>
 			</ul>
+		</div>
+		<div id = "left_stairs">
+			<ul>
+				<li><a href = "Javascript:;"></a></li>
+				<li><a href = "Javascript:;"></a></li>
+				<li><a href = "Javascript:;"></a></li>
+			</ul>
+			
 		</div>
 		<div id="highester">
 			<div id = "highest">
 				<ul>
 					<li><a href="Javascript:;">登录</a></li>
 					<li><a href="Javascript:;">免费注册</a></li>
-					<li><a href="Javascript:;">关注我们<span class = "iconfont">&#xe6b9;</span></a></li>
+					<li><a href="Javascript:;">关注我们<span class = "iconfont rotate_180">&#xe6b9;</span></a>
+						<div class = "guanzhu_box">
+							<div><span class = "iconfont">&#xe6b3;</span>加关注</div>
+							<span><img src="img/guanzhu-bg.jpg" alt="" /></span>
+						</div>
+					</li>
 					<li><a href="Javascript:;">帮助中心</a></li>
 					<li><span class = "iconfont">&#xe6b3;</span><a href="Javascript:;">关注丽子</a></li>
 				</ul>
@@ -35,7 +52,7 @@
 		<div id="top">
 			<img src="img/logo-08.png" alt="" />
 			<div class = "center">
-				<input type="text" />
+				<input type="text" placeholder="请输入商品或品牌" />
 				<img src="img/search-btn.png" alt="" />
 				<ul>
 					<li><a href = "Javascript:;">热搜榜：</a></li>
@@ -56,7 +73,7 @@
 		</div>
 		<div id="naver">
 			<ul id="nav">
-				<li class = "naver"><a href = "Javascript:;">全部商品分类</a>
+				<li class = "naver"><span class = "iconfont">&#xe663;</span><a href = "Javascript:;">全部商品分类</a>
 					<div>
 						<ul class = "left">
 							<span class = "left_left">
@@ -125,8 +142,8 @@
 						</ul>
 					</div>
 				</li>
-				<li><a href = "Javascript:;">60秒闪购</a></li>
-				<li><a href = "Javascript:;">手机丽子</a></li>
+				<li class = "nav_hover"><a href = "Javascript:;">60秒闪购</a></li>
+				<li class = "nav_hover"><a href = "Javascript:;">手机丽子</a></li>
 			</ul>
 		</div>
 		<div id = "rotatoryer">
@@ -144,8 +161,8 @@
 				<li></li>
 				<li></li>
 			</ol>
-			<div class = "btn_left"></div>
-			<div class = "btn_right"></div>
+			<div class = "btn_left iconfont">&#xe729;</div>
+			<div class = "btn_right iconfont">&#xe664;</div>
 		</div>
 		<div id = "shoper">
 			<div class = "brand_top"><img src="img/webintro.png" alt="" /></div>
@@ -158,8 +175,8 @@
 				
 			
 			<div id = "shop_six">
-				<div class = "six_left_btn"></div>
-				<div class = "six_right_btn"></div>
+				<div class = "six_left_btn iconfont">&#xe729;</div>
+				<div class = "six_right_btn iconfont">&#xe664;</div>
 				<ul class="six_shop_ul clearfix">
 					<li>
 						<img src="img/db9d9f0fdcc.jpg" alt="" />

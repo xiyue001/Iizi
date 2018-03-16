@@ -8,7 +8,6 @@ $(function(){
 	
 	
 	//轮播图图片的位置
-	console.log(($("#rotatory li").width() - $("#rotatory").width()));
 	$("#rotatory .rotatory_positionleft").css("left",-($("#rotatory li").width() - $("#rotatory").width())/2);
 	$("#rotatoryer ol").css("left",($("#rotatoryer").width() - $("#rotatoryer ol").width())/2)
 	
@@ -102,6 +101,16 @@ $(function(){
 	
 	$("#footer_sousuo .bg").css("left",-($("#footer_sousuo .bg").width() - $("#footer_sousuo").width())/2)
 	
+	setInterval(function(){ 
+		six_shop_index ++;
+		six_ol_auto();
+		six_shop_ul += -3*($(".six_shop_ul li").width() + 20);
+		if(six_shop_ul < -($(".six_shop_ul li").length-3)*($(".six_shop_ul li").width() + 20)){
+			six_shop_ul = 0;
+		}
+		$(".six_shop_ul").animate({"left":six_shop_ul},500);
+	},60300)
+	
 	function six_ol_auto(){
 		if(six_shop_index > $(".six_shop_ul").children("li").length/3 -1){
 			six_shop_index = 0;
@@ -112,6 +121,53 @@ $(function(){
 		$(".six_ol li").eq(six_shop_index).addClass("six_ol_click").siblings().removeClass("six_ol_click");
 	}
 	
+	
+	$("#broadside li").hover(function(){
+		$(this).children(".broadside_div").css("display","block").animate({"left":-74,"opacity":1},300);
+	},function(){
+		$(this).children(".broadside_div").animate({"left":-80,"opacity":0},300,function(){
+			$(this).css("display","none")
+		});
+	})
+	
+	$("#broadside li").hover(function(){
+		$(this).children(".erwei").css("display","block").animate({"left":-140,"opacity":1},300);
+	},function(){
+		$(this).children(".erwei").animate({"left":-160,"opacity":0},300,function(){
+			$(this).css("display","none");
+		});
+	})
+	
+	
+	$("#highest ul li").eq(2).hover(function(){
+		$(this).children(".guanzhu_box").css({"display":"block"}).animate({"opacity":1,"top":27},300)
+	},function(){
+		$(this).children(".guanzhu_box").animate({"opacity":0,"top":37},300,function(){
+			$(this).css("display","none");
+		})
+	})
+	
+	
+	
+	$("#broadside li").eq(4).click(function(){
+		$("html,body").animate({"scrollTop":0},500);
+	})
+	
+	
+	$(document).scroll(function(){
+//		console.log($("html,body").scrollTop());
+//		console.log($("#hot").offset().top);
+		if($("html,body").scrollTop() > $("#hot").offset().top){
+			$("#left_stairs ul").animate({"opacity":1},300)
+		}else{
+			console.log("djaks");
+			$("#left_stairs ul").animate({"opacity":0.5},300)
+		}
+	})
+	//左侧楼梯
+	$("#left_stairs li").eq(0).click(function(){
+		$("html,body").animate({"scrollTop":$(".brand_top").offset().top},300);
+	})
 	
 	
 	
