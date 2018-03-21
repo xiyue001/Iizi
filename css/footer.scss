@@ -1,4 +1,60 @@
+#toper{
+    width:100%;
+    height:57px;
+    background:#222;
+    #top{
+        width:1008px;
+        margin: 0 auto;
+        height:57px;
+        a{
+            float:left;
+        }
+        a:nth-child(2){
+            display:inline-block;
+            width:72px;
+            height:57px;
+            text-align: center;
+            line-height: 57px;
+            color:#fff;
+            margin-left:5px;
+            font-size:12px; 
+            &:hover{
+                background:#444;
+            }
+        }
+        div{
+            float:right;
+            a{
+                width:72px;
+                height:57px;
+                text-align: center;
+                line-height: 57px;
+                float:left;
+                color:#fff;
+                font-size: 12px;
+                span{
+                    font-size: 12px;
+                    padding-right:3px;
+                }
+                &:hover{
+                    background:#444;
+                }
+            }
+            >p{
+                float:left;
+                color:#fff;
+                line-height: 57px;
+                margin-left: 15px;
+                font-size: 12px;
+            }
+        } 
+    }
+}
+
+
+
 #footer{
+    border-top:3px solid #FF666B;
     width:100%;
     height:234px;
     background:url("../img/brand/footer-bg.jpg");

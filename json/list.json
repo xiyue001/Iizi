@@ -1,0 +1,186 @@
+{
+	"ximian":{
+		"name":"洗面",
+		"effect":[
+			"补水保湿",
+			"淡化色斑",
+			"收缩毛孔",
+			"祛痘/去粉刺"
+		],
+		"path":[
+			"莎娜/SANA(1)",
+			"雅诗兰黛/ESTEE LAUDER(1)",
+			"思亲肤/SKINFOOD(2)",
+			"菲诗小铺/THEFACESHOP(7)"
+		],
+		"list":[
+			{
+				"id": "001",
+				"marke":"￥100",
+				"word":"千纤草泡沫洁面乳100ML",
+				"price":"￥49.00",
+				"img":"../img/2e53599868bfb.jpg",
+				"big_img":"../img/28a5039d1bf58.jpg"
+			},
+			{
+				"id": "002",
+				"marke":"￥50",
+				"word":"美国Dermalogica德美乐嘉手打酵素洁面粉末74g 温和去角质",
+				"price":"￥11.70",
+				"img":"../img/3403652e45368.jpg",
+				"big_img":"../img/179770862ffa0.jpg"
+			},
+			{
+				"id": "003",
+				"marke":"￥458",
+				"word":"法国Fresh馥蕾诗大豆精萃卸妆洁面凝露150ml 舒缓保湿",
+				"price":"￥325.00",
+				"img":"../img/2e5585b4d1b0a.jpg",
+				"big_img":"../img/179770862fecc.jpg"
+			},
+			{
+				"id": "004",
+				"marke":"￥350",
+				"word":"凡茜仙人掌无S温和清洁补水保湿控油洗面奶126ml 18年7月到期",
+				"price":"￥298.00",
+				"img":"../img/6864148b2441.jpg",
+				"big_img":"../img/daac67a1077.jpg"
+			},
+			{
+				"id": "005",
+				"marke":"￥100",
+				"word":"Nuxe/欧树蜂蜜洁面凝胶啫喱200ml温和舒缓洗面奶",
+				"price":"￥78.00",
+				"img":"../img/289d179266f04.jpg",
+				"big_img":"../img/28a5039d1d4ba.jpg"
+			},
+			{
+				"id": "001",
+				"marke":"￥100",
+				"word":"千纤草泡沫洁面乳100ML",
+				"price":"￥49.00",
+				"img":"../img/2e53599868bfb.jpg",
+				"big_img":"../img/28a5039d1bf58.jpg"
+			},
+			{
+				"id": "002",
+				"marke":"￥50",
+				"word":"美国Dermalogica德美乐嘉手打酵素洁面粉末74g 温和去角质",
+				"price":"￥11.70",
+				"img":"../img/3403652e45368.jpg",
+				"big_img":"../img/179770862ffa0.jpg"
+			},
+			{
+				"id": "003",
+				"marke":"￥426",
+				"word":"法国Fresh馥蕾诗大豆精萃卸妆洁面凝露150ml 舒缓保湿",
+				"price":"￥325.00",
+				"img":"../img/2e5585b4d1b0a.jpg",
+				"big_img":"../img/179770862fecc.jpg"
+			},
+			{
+				"id": "004",
+				"marke":"￥356",
+				"word":"凡茜仙人掌无S温和清洁补水保湿控油洗面奶126ml 18年7月到期",
+				"price":"￥298.00",
+				"img":"../img/6864148b2441.jpg",
+				"big_img":"../img/daac67a1077.jpg"
+			},
+			{
+				"id": "005",
+				"marke":"￥100",
+				"word":"Nuxe/欧树蜂蜜洁面凝胶啫喱200ml温和舒缓洗面奶",
+				"price":"￥78.00",
+				"img":"../img/289d179266f04.jpg",
+				"big_img":"../img/28a5039d1d4ba.jpg"
+			}
+		]
+	},
+	"shuangfushui":{
+		"name":"爽肤水",
+		"effect":[
+			"补水保湿",
+			"淡化色斑",
+			"收缩毛孔",
+			"祛痘/去粉刺"
+		],
+		"path":[
+			"雅诗兰黛/ESTEE LAUDER(2)",
+			"思亲肤/SKINFOOD(8)",
+			"婵真/CHARMZONE(1)",
+			"梦妆/Mamonde(1)"
+		],
+		"list":[
+			{
+				"id": "006",
+				"marke":"￥100",
+				"word":"日本MEISHOKU明色Organic Rose玫瑰薏仁保湿化妆水210ml",
+				"price":"￥49.00",
+				"img":"../img/22f77d518c45c.jpg"
+			},
+			{
+				"id": "007",
+				"marke":"￥30",
+				"word":"包邮Kose高丝雪肌精 化妆水200ML雪水爽肤水柔肤水保湿补水 ",
+				"price":"￥11.70",
+				"img":"../img/178e6c6fd2ae0.jpg"
+			},
+			{
+				"id": "008",
+				"marke":"￥400",
+				"word":"Dr.Ci:Labo城野医生LaboLabo收缩毛孔化妆水100ml",
+				"price":"￥325.00",
+				"img":"../img/2e4db41bfd2f5.jpg"
+			},
+			{
+				"id": "009",
+				"marke":"￥359",
+				"word":"韩国AHC B5透明质酸玻尿酸爽肤水100ml ",
+				"price":"￥298.00",
+				"img":"../img/289f10d1a702f.jpg"
+			},
+			{
+				"id": "010",
+				"marke":"￥100",
+				"word":"Nuxe/日本 SIVCA/诗薇卡 樱桃精华爽肤水500ml",
+				"price":"￥78.00",
+				"img":"../img/17976347606a7.jpg"
+			},
+			{
+				"id": "006",
+				"marke":"￥100",
+				"word":"日本MEISHOKU明色Organic Rose玫瑰薏仁保湿化妆水210ml",
+				"price":"￥49.00",
+				"img":"../img/22f77d518c45c.jpg"
+			},
+			{
+				"id": "007",
+				"marke":"￥30",
+				"word":"包邮Kose高丝雪肌精 化妆水200ML雪水爽肤水柔肤水保湿补水 ",
+				"price":"￥11.70",
+				"img":"../img/178e6c6fd2ae0.jpg"
+			},
+			{
+				"id": "008",
+				"marke":"￥400",
+				"word":"Dr.Ci:Labo城野医生LaboLabo收缩毛孔化妆水100ml",
+				"price":"￥325.00",
+				"img":"../img/2e4db41bfd2f5.jpg"
+			},
+			{
+				"id": "009",
+				"marke":"￥350",
+				"word":"韩国AHC B5透明质酸玻尿酸爽肤水100ml ",
+				"price":"￥298.00",
+				"img":"../img/289f10d1a702f.jpg"
+			},
+			{
+				"id": "010",
+				"marke":"￥100",
+				"word":"Nuxe/日本 SIVCA/诗薇卡 樱桃精华爽肤水500ml",
+				"price":"￥78.00",
+				"img":"../img/17976347606a7.jpg"
+			}
+		]
+	}
+}

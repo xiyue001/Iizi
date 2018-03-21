@@ -1,0 +1,118 @@
+#highester { background: #f0f0f0; }
+
+#highest { width: 1180px; height: 26px; margin: 0 auto; }
+#highest ul { padding-left: 842px; }
+#highest ul li { float: left; font-size: 11px; line-height: 26px; padding: 0 8px; }
+#highest ul li a { color: #a8a8a8; }
+#highest ul li:nth-child(1) a { padding-right: 8px; border-right: 1px solid #d4d4d4; }
+#highest ul li:nth-child(3) { position: relative; }
+#highest ul li:nth-child(3) > div { border: 1px solid #ccc; width: 160px; height: 205px; position: absolute; right: 0px; background: #fff; z-index: 10000; top: 37px; padding-top: 15px; display: none; opacity: 0; }
+#highest ul li:nth-child(3) > div div { margin: 0 auto; width: 60px; height: 20px; border: 1px solid #FF666B; text-align: center; line-height: 20px; }
+#highest ul li:nth-child(3) > div div span { font-size: 14px; color: red; }
+#highest ul li:nth-child(3) > div > span { margin-top: 14px; display: block; margin-left: 20px; }
+#highest ul li:nth-child(3):hover .rotate_180 { transform: rotate(180deg); }
+#highest ul li:nth-child(3) span { display: inline-block; font-size: 11px; margin-left: 2px; transition: all .3s; }
+#highest ul li:nth-child(5) span { font-size: 11px; color: #999999; }
+
+#top { width: 1196px; height: 100px; margin: 0 auto; }
+#top .left div:nth-child(1) { height: 66px; float: left; padding-right: 30px; border-right: 1px dashed #666; margin-top: 16px; }
+#top .left div:nth-child(1) a { line-height: 66px; }
+#top .left > div:nth-child(2) { float: left; width: 335px; height: 99px; position: relative; }
+#top .left > div:nth-child(2):hover { background: #f5f5f5; }
+#top .left > div:nth-child(2):hover div:nth-child(3) { display: block; }
+#top .left > div:nth-child(2):hover h2 { transform: rotate(180deg); }
+#top .left > div:nth-child(2) img { float: left; width: 60px; margin: 20px 0 0 30px; }
+#top .left > div:nth-child(2) div:nth-child(2) { margin-top: 25px; float: left; }
+#top .left > div:nth-child(2) div:nth-child(2) p { font-size: 12px; margin-left: 15px; }
+#top .left > div:nth-child(2) div:nth-child(2) span { display: block; width: 79px; height: 26px; background: #38b1ef; margin-top: 16px; margin-left: 15px; border-radius: 3px; font-size: 12px; text-align: center; line-height: 26px; color: #fff; }
+#top .left > div:nth-child(2) div:nth-child(2) span em { margin-right: 2px; }
+#top .left > div:nth-child(2) div:nth-child(2) h2 { display: block; position: absolute; border-top: 5px solid #666; border-left: 5px solid transparent; border-right: 5px solid transparent; top: 27px; right: 40px; transition: all .5s; }
+#top .left > div:nth-child(2) div:nth-child(3) { box-shadow: 3px 3px 3px #666,-3px -3px -3px #666; background: #f5f5f5; width: 400px; height: 176px; border-top: 1px solid #666; position: absolute; top: 99px; display: none; }
+#top .left > div:nth-child(2) div:nth-child(3) p:nth-child(1) { color: #000; margin-top: 28px; margin-left: 19px; }
+#top .left > div:nth-child(2) div:nth-child(3) p:nth-child(1) span { display: inline; color: #FF666B; background: #f5f5f5; }
+#top .left > div:nth-child(2) div:nth-child(3) p:nth-child(2) { margin-top: 12px; margin-left: 33px; display: inline-block; }
+#top .left > div:nth-child(2) div:nth-child(3) p:nth-child(3) { display: inline-block; margin-left: 58px; }
+#top .left > div:nth-child(2) div:nth-child(3) p:nth-child(4) { margin-left: 33px; margin-top: 12px; display: inline-block; }
+#top .left > div:nth-child(2) div:nth-child(3) p:nth-child(5) { display: inline-block; margin-left: 87px; }
+#top .left > div:nth-child(2) div:nth-child(3) p { margin-top: 12px; margin-left: 20px; }
+#top .left > div:nth-child(2) div:nth-child(3) p > span { display: inline-block; width: 95px; height: 22px; background: #ffb72c; margin-right: 10px; text-align: center; line-height: 22px; }
+#top .left > div:nth-child(2) div:nth-child(3) p > span:nth-child(3) { margin-top: 7px; margin-left: 70px; }
+#top .right { float: right; margin-top: 30px; }
+#top .right input { float: left; }
+#top .right input:nth-child(1) { width: 300px; height: 34px; border: 2px solid #FF666B; border-right: none; }
+#top .right input:nth-child(2) { width: 83px; height: 38px; background: #FF666B; color: #fff; border: none; }
+#top .right input:nth-child(3) { width: 76px; height: 38px; border: 2px solid #FF666B; background: #fff; color: #FF666B; margin-left: 15px; }
+
+#top_img { width: 100%; overflow: hidden; }
+#top_img img { width: 1920px; margin-left: -277px; }
+
+#naver { width: 100%; height: 35px; background: #3c4154; }
+#naver #nav { width: 1180px; margin: 0 auto; }
+
+#naver { width: 100%; height: 35px; background: #3c4154; }
+#naver #nav { width: 1196px; margin: 0 auto; }
+#naver #nav ul { height: 35px; }
+#naver #nav ul > li { position: relative; float: left; line-height: 35px; padding: 0 30px; }
+#naver #nav ul > li a { color: #fff; }
+#naver #nav ul > li:hover > a { color: #FF666B; }
+#naver #nav ul > li:hover > a span { border-top-color: #FF666B; }
+#naver #nav ul > li:hover ul { display: block; }
+#naver #nav ul > li ul { position: absolute; top: 35px; left: 0; width: 140px; height: 280px; background: rgba(28, 2, 0, 0.5); display: none; }
+#naver #nav ul > li ul li { width: 100%; height: 35px; padding: 0; }
+#naver #nav ul > li ul li a { margin-left: 30px; }
+#naver #nav ul > li ul li:hover { background: rgba(255, 255, 255, 0.2); }
+#naver #nav ul > li ul li:hover a { color: #fff; }
+#naver #nav ul > li:nth-child(2) span { display: inline-block; border-top: 8px solid #fff; border-left: 8px solid transparent; border-right: 8px solid transparent; margin-left: 8px; }
+
+#shoper { width: 100%; padding-top: 20px; }
+#shoper #shop { width: 1200px; margin: 0 auto; }
+#shoper #shop .commodity_buy { width: 1198px; height: 486px; border: 1px solid #ccc; }
+#shoper #shop .commodity_buy .left { float: left; }
+#shoper #shop .commodity_buy .left .left_img { float: left; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box { width: 380px; height: 380px; margin-top: 20px; margin-left: 20px; position: relative; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box:hover .close { display: block; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box:hover .close .move_box { display: block; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box:hover .big_img { display: block; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box img { width: 100%; height: 100%; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box .close { background: #000; opacity: 0.3; width: 100%; height: 100%; position: absolute; left: 0; top: 0; display: none; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box .close .move_box { width: 188px; height: 188px; position: absolute; left: 0; top: 0; background: red; display: none; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box .big_img { display: none; width: 380px; height: 380px; position: absolute; left: 380px; top: 0; overflow: hidden; border: 1px solid #ccc; }
+#shoper #shop .commodity_buy .left .left_img .bottom_box .big_img img { width: 750px; height: 750px; position: absolute; }
+#shoper #shop .commodity_buy .left .left_img ul { margin-top: 20px; margin-left: 20px; }
+#shoper #shop .commodity_buy .left .left_img ul li { width: 50px; height: 50px; padding: 1px; }
+#shoper #shop .commodity_buy .left .left_img ul li img { width: 50px; height: 50px; }
+#shoper #shop .commodity_buy .left .left_img ul .border_red { border: 1px solid #FF666B; }
+#shoper #shop .commodity_buy .left .right_word { float: left; margin-top: 20px; }
+#shoper #shop .commodity_buy .left .right_word p { font-size: 16px; color: #344981; }
+#shoper #shop .commodity_buy .left .right_word > i { display: block; padding-top: 10px; font-size: 12px; color: #ccc; }
+#shoper #shop .commodity_buy .left .right_word em { width: 550px; height: 1px; background: #ccc; margin-top: 16px; display: block; }
+#shoper #shop .commodity_buy .left .right_word span { margin-top: 20px; display: block; color: #666; font-size: 15px; }
+#shoper #shop .commodity_buy .left .right_word span i { margin: 0 20px; font-size: 15px; }
+#shoper #shop .commodity_buy .left .right_word span:nth-child(4) i { color: #FF666B; font-size: 18px; }
+#shoper #shop .commodity_buy .left .right_word span:nth-child(5) i { color: #FF666B; font-size: 18px; }
+#shoper #shop .commodity_buy .left .right_word span:nth-child(7) i { color: #FF666B; }
+#shoper #shop .commodity_buy .left .right_word span:nth-child(8) input:nth-child(1) { margin-left: 25px; width: 28px; height: 32px; border: 1px solid #ccc; border-right: 0; font-size: 17px; }
+#shoper #shop .commodity_buy .left .right_word span:nth-child(8) input:nth-child(3) { margin-right: 20px; width: 28px; height: 32px; border: 1px solid #ccc; border-left: 0; font-size: 15px; }
+#shoper #shop .commodity_buy .left .right_word span:nth-child(8) div { display: inline-block; width: 64px; height: 30px; text-align: center; line-height: 30px; border: 1px solid #ccc; }
+#shoper #shop .commodity_buy .left .right_word > input { width: 150px; height: 44px; background: #FF666B; border-radius: 2px; color: #fff; border: 0; font-size: 15px; margin-top: 30px; }
+#shoper #shop .commodity_buy .left .right_word ul { margin-top: 71px; }
+#shoper #shop .commodity_buy .left .right_word ul li { float: left; padding: 0 10px; border-right: 1px dashed #ccc; color: #ccc; }
+#shoper #shop .commodity_buy .left .right_word ul li i { margin-right: 6px; }
+#shoper #shop .commodity_buy .right { float: right; width: 206px; height: 485px; background: #eee; }
+#shoper #shop .commodity_buy .right h3 { margin-top: 20px; margin-left: 37px; }
+#shoper #shop .commodity_buy .right ul { margin-left: 37px; }
+#shoper #shop .commodity_buy .right ul li { margin-top: 14px; width: 130px; height: 130px; border: 1px solid #ccc; position: relative; }
+#shoper #shop .commodity_buy .right ul li img { width: 100%; height: 100%; }
+#shoper #shop .commodity_buy .right ul li p { position: absolute; left: 11px; bottom: 9px; }
+#shoper #shop .xiangqing { margin-top: 20px; width: 968px; border: 1px solid #ccc; }
+#shoper #shop .xiangqing ol { width: 100%; background: #f3f3f3; }
+#shoper #shop .xiangqing ol > li { border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; float: left; width: 143px; height: 44px; text-align: center; line-height: 44px; position: relative; }
+#shoper #shop .xiangqing ol > li > span { display: none; position: absolute; left: 0; top: 44px; width: 100%; height: 1px; background: #fff; }
+#shoper #shop .xiangqing ol .xianshi { background: #fff; }
+#shoper #shop .xiangqing ol .xianshi a { color: #FF666B; }
+#shoper #shop .xiangqing ol .xianshi > span { display: block; }
+#shoper #shop .xiangqing div:nth-child(2) { width: 928px; padding: 20px 20px 0 20px; }
+#shoper #shop .xiangqing div:nth-child(2) span { display: block; width: 928px; height: 25px; padding-bottom: 2px; background: url("../img/spxq_tit_bg.png") no-repeat; }
+#shoper #shop .xiangqing div:nth-child(2) span i { margin-left: 20px; line-height: 25px; font-weight: 600; color: #fff; }
+
+/*# sourceMappingURL=detailnew.css.map */

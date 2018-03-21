@@ -624,7 +624,8 @@
         p{
             display:inline-block;
         }
-        div{
+        >div{
+            padding-top:20px;
             .left,.right{
                 float:left;
                 width:190px;

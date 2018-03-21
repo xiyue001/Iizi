@@ -124,11 +124,12 @@
 #shoper #brand_type { width: 1180px; margin: 0 auto; margin-top: 20px; padding-bottom: 80px; }
 #shoper #brand_type h3 { display: inline-block; font-size: 27px; color: #34495e; }
 #shoper #brand_type p { display: inline-block; }
-#shoper #brand_type div .left, #shoper #brand_type div .right { float: left; width: 190px; }
-#shoper #brand_type div ul { width: 800px; float: left; }
-#shoper #brand_type div ul li { width: 199px; height: 80px; float: left; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; position: relative; background: #fff; overflow: hidden; }
-#shoper #brand_type div ul li img { position: absolute; top: 0; transition: all .3s; }
-#shoper #brand_type div ul li:hover img { top: -5px; }
+#shoper #brand_type > div { padding-top: 20px; }
+#shoper #brand_type > div .left, #shoper #brand_type > div .right { float: left; width: 190px; }
+#shoper #brand_type > div ul { width: 800px; float: left; }
+#shoper #brand_type > div ul li { width: 199px; height: 80px; float: left; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; position: relative; background: #fff; overflow: hidden; }
+#shoper #brand_type > div ul li img { position: absolute; top: 0; transition: all .3s; }
+#shoper #brand_type > div ul li:hover img { top: -5px; }
 
 #footer_sousuo { border-bottom: 2px solid #FF666B; width: 100%; height: 280px; position: relative; overflow: hidden; }
 #footer_sousuo .sousuo { z-index: 10; width: 504px; height: 85px; position: absolute; left: 411px; top: 25px; }
